@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AppiumSuite" duration-ms="133728" started-at="2020-09-10T10:32:52Z" finished-at="2020-09-10T10:35:06Z">
+    <groups>
+    </groups>
+    <test name="SignIn" duration-ms="59021" started-at="2020-09-10T10:32:52Z" finished-at="2020-09-10T10:33:51Z">
+      <class name="TestCases.TC_01_signIn">
+        <test-method status="PASS" signature="open_app()[pri:1, instance:TestCases.TC_01_signIn@5b87ed94]" name="open_app" duration-ms="30483" started-at="2020-09-10T16:02:52Z" finished-at="2020-09-10T16:03:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_app -->
+        <test-method status="PASS" signature="click_On_Dismiss_btn()[pri:2, instance:TestCases.TC_01_signIn@5b87ed94]" name="click_On_Dismiss_btn" duration-ms="10347" started-at="2020-09-10T16:03:22Z" finished-at="2020-09-10T16:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_On_Dismiss_btn -->
+        <test-method status="PASS" signature="SignIn_Using_Google()[pri:3, instance:TestCases.TC_01_signIn@5b87ed94]" name="SignIn_Using_Google" duration-ms="18164" started-at="2020-09-10T16:03:33Z" depends-on-methods="TestCases.TC_01_signIn.click_On_Dismiss_btn" finished-at="2020-09-10T16:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn_Using_Google -->
+      </class> <!-- TestCases.TC_01_signIn -->
+    </test> <!-- SignIn -->
+    <test name="MyCourse" duration-ms="10385" started-at="2020-09-10T10:33:51Z" finished-at="2020-09-10T10:34:01Z">
+      <class name="TestCases.TC_02_Mycourse">
+        <test-method status="PASS" signature="My_Course_Action()[pri:0, instance:TestCases.TC_02_Mycourse@57855c9a]" name="My_Course_Action" duration-ms="10379" started-at="2020-09-10T16:03:51Z" finished-at="2020-09-10T16:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- My_Course_Action -->
+      </class> <!-- TestCases.TC_02_Mycourse -->
+    </test> <!-- MyCourse -->
+    <test name="PlayCourse" duration-ms="57915" started-at="2020-09-10T10:34:01Z" finished-at="2020-09-10T10:34:59Z">
+      <class name="TestCases.TC_03_PlayCourse">
+        <test-method status="PASS" signature="Play_course()[pri:0, instance:TestCases.TC_03_PlayCourse@68bbe345]" name="Play_course" duration-ms="57911" started-at="2020-09-10T16:04:01Z" finished-at="2020-09-10T16:04:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Play_course -->
+      </class> <!-- TestCases.TC_03_PlayCourse -->
+    </test> <!-- PlayCourse -->
+    <test name="Signout" duration-ms="6325" started-at="2020-09-10T10:34:59Z" finished-at="2020-09-10T10:35:06Z">
+      <class name="TestCases.TC_04_signOut">
+        <test-method status="PASS" signature="Signout()[pri:0, instance:TestCases.TC_04_signOut@5e853265]" name="Signout" duration-ms="6321" started-at="2020-09-10T16:04:59Z" finished-at="2020-09-10T16:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Signout -->
+      </class> <!-- TestCases.TC_04_signOut -->
+    </test> <!-- Signout -->
+  </suite> <!-- AppiumSuite -->
+</testng-results>

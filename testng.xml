@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppiumSuite">
+<listeners>
+        <listener class-name="resource.ExtentReporterNG" />
+    </listeners> 
+  <test name="SignIn">
+    <classes>
+       <class name="TestCases.TC_01_signIn"/>
+    </classes>
+  </test>
+  <test name="MyCourse">
+    <classes>
+       <class name="TestCases.TC_02_Mycourse"/>
+    </classes>
+  </test>
+  <test name="PlayCourse">
+    <classes>
+       <class name="TestCases.TC_03_PlayCourse"/>
+    </classes>
+  </test>
+  <test name="Signout">
+    <classes>
+       <class name="TestCases.TC_04_signOut"/>
+    </classes>
+  </test>
+  
+  
+ </suite> <!-- Suite -->
+       

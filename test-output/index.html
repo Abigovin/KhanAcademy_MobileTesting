@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-AppiumSuite">
+              <span class="suite-name border-passed">AppiumSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-AppiumSuite">
+                    <span>C:\MobileTesting\KhanAcademy_AppiumFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-AppiumSuite">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-AppiumSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-AppiumSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-AppiumSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-AppiumSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-AppiumSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AppiumSuite" class="hide-methods passed suite-AppiumSuite"> (hide)</a> <!-- hide-methods passed suite-AppiumSuite -->
+                      <a href="#" panel-name="suite-AppiumSuite" class="show-methods passed suite-AppiumSuite"> (show)</a> <!-- show-methods passed suite-AppiumSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-AppiumSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppiumSuite" title="TestCases.TC_02_Mycourse" hash-for-method="My_Course_Action">My_Course_Action</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppiumSuite" title="TestCases.TC_03_PlayCourse" hash-for-method="Play_course">Play_course</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppiumSuite" title="TestCases.TC_01_signIn" hash-for-method="SignIn_Using_Google">SignIn_Using_Google</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppiumSuite" title="TestCases.TC_04_signOut" hash-for-method="Signout">Signout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppiumSuite" title="TestCases.TC_01_signIn" hash-for-method="click_On_Dismiss_btn">click_On_Dismiss_btn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-AppiumSuite" title="TestCases.TC_01_signIn" hash-for-method="open_app">open_app</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AppiumSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AppiumSuite" class="panel AppiumSuite">
+          <div class="suite-AppiumSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_01_signIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignIn_Using_Google">
+                  </a> <!-- SignIn_Using_Google -->
+                  <span class="method-name">SignIn_Using_Google</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_On_Dismiss_btn">
+                  </a> <!-- click_On_Dismiss_btn -->
+                  <span class="method-name">click_On_Dismiss_btn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="open_app">
+                  </a> <!-- open_app -->
+                  <span class="method-name">open_app</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AppiumSuite-class-passed -->
+          <div class="suite-AppiumSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_03_PlayCourse</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Play_course">
+                  </a> <!-- Play_course -->
+                  <span class="method-name">Play_course</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AppiumSuite-class-passed -->
+          <div class="suite-AppiumSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_04_signOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Signout">
+                  </a> <!-- Signout -->
+                  <span class="method-name">Signout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AppiumSuite-class-passed -->
+          <div class="suite-AppiumSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC_02_Mycourse</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="My_Course_Action">
+                  </a> <!-- My_Course_Action -->
+                  <span class="method-name">My_Course_Action</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AppiumSuite-class-passed -->
+        </div> <!-- panel AppiumSuite -->
+        <div panel-name="test-xml-AppiumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\MobileTesting\KhanAcademy_AppiumFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;AppiumSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;resource.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;SignIn&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_01_signIn&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignIn --&gt;
+  &lt;test name=&quot;MyCourse&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_02_Mycourse&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyCourse --&gt;
+  &lt;test name=&quot;PlayCourse&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_03_PlayCourse&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PlayCourse --&gt;
+  &lt;test name=&quot;Signout&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TC_04_signOut&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signout --&gt;
+&lt;/suite&gt; &lt;!-- AppiumSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AppiumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AppiumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignIn (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MyCourse (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PlayCourse (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Signout (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AppiumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AppiumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AppiumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AppiumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AppiumSuite');
+function tableData_AppiumSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Play_course')
+data.setCell(0, 2, 'TestCases.TC_03_PlayCourse')
+data.setCell(0, 3, 57911);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'open_app')
+data.setCell(1, 2, 'TestCases.TC_01_signIn')
+data.setCell(1, 3, 30483);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SignIn_Using_Google')
+data.setCell(2, 2, 'TestCases.TC_01_signIn')
+data.setCell(2, 3, 18164);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'My_Course_Action')
+data.setCell(3, 2, 'TestCases.TC_02_Mycourse')
+data.setCell(3, 3, 10379);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'click_On_Dismiss_btn')
+data.setCell(4, 2, 'TestCases.TC_01_signIn')
+data.setCell(4, 3, 10347);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Signout')
+data.setCell(5, 2, 'TestCases.TC_04_signOut')
+data.setCell(5, 3, 6321);
+window.suiteTableData['AppiumSuite']= { tableData: data, tableDiv: 'times-div-AppiumSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-AppiumSuite">
+              </div> <!-- times-div-AppiumSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AppiumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AppiumSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AppiumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AppiumSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_01_signIn</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">open_app</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_On_Dismiss_btn</span>
+                <span class="method-start">30485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SignIn_Using_Google</span>
+                <span class="method-start">40835 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_02_Mycourse</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">My_Course_Action</span>
+                <span class="method-start">59070 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_03_PlayCourse</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Play_course</span>
+                <span class="method-start">69460 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC_04_signOut</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Signout</span>
+                <span class="method-start">127384 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AppiumSuite]">
+  <listeners>
+    <listener class-name="resource.ExtentReporterNG"/>
+  </listeners>
+  <test name="SignIn">
+    <classes>
+      <class name="TestCases.TC_01_signIn"/>
+    </classes>
+  </test> <!-- SignIn -->
+  <test name="MyCourse">
+    <classes>
+      <class name="TestCases.TC_02_Mycourse"/>
+    </classes>
+  </test> <!-- MyCourse -->
+  <test name="PlayCourse">
+    <classes>
+      <class name="TestCases.TC_03_PlayCourse"/>
+    </classes>
+  </test> <!-- PlayCourse -->
+  <test name="Signout">
+    <classes>
+      <class name="TestCases.TC_04_signOut"/>
+    </classes>
+  </test> <!-- Signout -->
+</suite> <!-- Failed suite [AppiumSuite] -->
